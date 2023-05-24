@@ -1,6 +1,6 @@
 # React with TypeScript
 
-### Teach stack:  ReactJS, TypeScript, Redux Toolkit, Redux Saga, TailwindCSS, Antd
+### Tech stack:  ReactJS, TypeScript, Redux Toolkit, Redux Saga, TailwindCSS, Antd
 
 ### Setup and usage
 1. Download source code:
