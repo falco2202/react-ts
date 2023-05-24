@@ -1,3 +1,5 @@
 {
-  "hello": "Xin chào"
+  "common": {
+    "back_home": "Trở về trang chủ"
+  }
 }
