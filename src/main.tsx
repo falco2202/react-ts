@@ -5,7 +5,7 @@ import '@/assets/styles/index.scss'
 import { I18nextProvider } from 'react-i18next'
 import i18n from '@/locales'
 import { Provider } from 'react-redux'
-import { store } from '@/redux/store'
+import { store } from '@/app/store'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
