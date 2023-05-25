@@ -1,4 +1,8 @@
-import axios, { AxiosRequestConfig, AxiosResponse, AxiosError } from 'axios'
+import axios, {
+  AxiosResponse,
+  AxiosError,
+  InternalAxiosRequestConfig
+} from 'axios'
 
 const apiClient = axios.create({
   baseURL: import.meta.env.VITE_API_URL || '',
@@ -6,10 +10,10 @@ const apiClient = axios.create({
     Accept: 'application/json',
     'Content-Type': 'application/json; charset=UTF-8'
   },
-  withCredentials: true
+  withCredentials: false
 })
 
-const onRequest = (config: AxiosRequestConfig): any => {
+const onRequest = (config: InternalAxiosRequestConfig) => {
   return config
 }
 
